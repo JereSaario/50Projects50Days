@@ -16,7 +16,7 @@ body{
 }
 
 .search{
-    position:relative;
+    position:static;
     height: 50px;
 }
 
@@ -33,12 +33,12 @@ body{
 .search .button{
     background-color: #fff;
     border:0;
-    position: absolute;
+    position: sticky;
     top:0;
     left:0;
-    height: 50px;
-    width:50px;
-    font-size: 20px;
+    height: 40px;
+    width:40px;
+    font-size: 35px;
     transition: transform 0.3s ease;
 
 }
